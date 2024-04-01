@@ -1,11 +1,14 @@
 import React from "react";
 import Accordian from "./components/Accordian";
 
+
 function App() {
   return (
-    <div className="App">
-      <Accordian/>
-    </div>
+      <div className="flex flex-col items-center h-screen w-screen">
+            
+          <Accordian/>
+      </div>
+  
   );
 }
 
