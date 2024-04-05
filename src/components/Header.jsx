@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='flex flex-row justfy-center items-center'>
         <StarIcon/>
-        <h1 className='text-4xl font-bold ml-5'>FAQs</h1>
+        <h1 className='text-3xl font-bold ml-4'>FAQs</h1>
         
     </div>
   )
