@@ -16,6 +16,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 
 
+
 ## Overview
 
 ### The challenge
@@ -29,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="505" alt="faq" src="https://github.com/bahati7/faq-accordion-main-react/assets/14108202/09821d45-716c-4fa0-82df-4734c033b091">
 
 
 ### Links
