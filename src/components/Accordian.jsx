@@ -13,7 +13,8 @@ const Accordian = () => {
     }
 
   return (
-    <div className="my-auto mx-auto max-w-fit rounded bg-white overflow-hidden shadow-lg px-5 py-5">
+    <>
+        <div className="my-auto mx-auto max-w-fit rounded bg-white overflow-hidden shadow-lg px-5 py-5">
         <Header/>
       {data && data.length > 0 ? (
         data.map((dataItem) => (
@@ -35,7 +36,14 @@ const Accordian = () => {
       ) : (
         <div>No data found</div>
       )}
+      
     </div>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/bahati7/">Philemon Bahati</a>.
+  </div>
+    </>
+    
   );
 };
 

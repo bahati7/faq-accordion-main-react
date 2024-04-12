@@ -1,3 +1,85 @@
+# Frontend Mentor - FAQ accordion solution
+
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Hide/Show the answer to a question when the question is clicked
+- Navigate the questions and hide/show answers using keyboard navigation alone
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+
+### Links
+
+- Solution URL: https://www.frontendmentor.io/solutions/faqaccordionreacttailwind-4OFoSSIt0N
+- Live Site URL: https://faq-accordion-up.netlify.app/
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- https://tailwindcss.com/docs/installation - tailwindcss
+
+
+### What I learned
+
+In this projec I practiced reusable components in react
+```
+const Header = () => {
+  return (
+    <div className='flex flex-row justfy-center items-center'>
+        <StarIcon/>
+        <h1 className='text-3xl font-bold ml-4'>FAQs</h1>
+        
+    </div>
+  )
+}
+
+export default Header
+```
+
+
+### Useful resources
+
+- [tailwindcss](https://tailwindcss.com/docs/installation) - This helped me for stylling
+- [React ressources](https://reactresources.com/)) - This is an amazing ressource for React JS. I'd recommend it to anyone still learning this concept.
+
+
+## Author
+
+- Frontend Mentor - [@bahati7](https://www.frontendmentor.io/profile/bahati7)
+- Twitter - [@PhilemonBahati](https://twitter.com/PhilemonBahati)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
